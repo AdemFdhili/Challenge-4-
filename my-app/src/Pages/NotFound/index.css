@@ -1,0 +1,20 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.no-found-country {
+    font-size: 3rem;
+    color: #f44336; 
+}
+
+.message {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+

@@ -1,0 +1,85 @@
+.search{
+    display: flex;
+    gap: 1rem;
+    margin: 7rem;
+    align-items: center;
+}
+input,.region-options{
+    width: 22rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+option {
+    text-decoration: transparent;
+}
+.go-button{
+    width: 8rem;
+    height: 3.1rem;
+    border-radius: 12px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    background-color: white;
+    transition: 0.5s ease; 
+    cursor: pointer;
+}
+.go-button:hover{
+   background-color: #0b3b3d;
+   color: white;
+   border: none;
+}
+/* index.css */
+
+#countries {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.country {
+    width: 20rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    text-align: start;
+    box-shadow: 1px 1px 4px  ;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: width 0.5s ease;
+}
+
+.country:hover {
+    width: 21rem;
+    box-shadow: 1px 1px 20px  ;
+}
+
+.flag {
+    width: 20rem;
+    height: 12.5rem;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+.capital, .population {
+    margin-top: 5px;
+}
+
+.country-info {
+    font-size: 1rem;
+}
+
+p {
+    font-weight: bolder;
+}
+
+span {
+    font-weight: 400;
+}
+.path{
+    visibility: hidden;
+    pointer-events: none;
+}
